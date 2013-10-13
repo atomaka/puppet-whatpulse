@@ -4,5 +4,9 @@ class whatpulse {
     source   => 'http://amcdn.whatpulse.org/files/whatpulse-mac-2.2.1.dmg',
     provider => pkgdmg
   }
+
+  file { '/private/var/db/.AccessibilityAPIEnabled':
+    ensure => present,
+  }
 }
 
