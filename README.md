@@ -15,4 +15,4 @@ include whatpulse
 * boxen
 
 ## Developing
-Write code.  Run ```script/cbuild```.
+Write tests.  Write code.  Run ```script/cbuild```.
