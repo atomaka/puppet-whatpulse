@@ -6,6 +6,7 @@ describe 'whatpulse' do
       :source   => 'http://amcdn.whatpulse.org/files/whatpulse-mac-2.2.1.dmg',
       :provider => 'pkgdmg'
     })
+    should contain_file('/private/var/db/.AccessibilityAPIEnabled')
   end
 end
 
