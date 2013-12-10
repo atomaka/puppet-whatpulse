@@ -10,9 +10,14 @@ Install [Whatpulse](http://www.whatpulse.org/), an application for tracking your
 include whatpulse
 ```
 
+## Extra
+
+When launching WhatPulse for the first time, you will have to enable
+Accessibility control for WhatPulse.
+
 ## Required Puppet Modules
 
 * boxen
 
 ## Developing
-Write tests.  Write code.  Run ```script/cbuild```.
+Write tests.  Write code.  Run ```script/cibuild```.
