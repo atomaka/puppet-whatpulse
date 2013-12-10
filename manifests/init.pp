@@ -1,12 +1,8 @@
 # This is a placeholder class.
 class whatpulse {
   package { 'Whatpulse':
-    source   => 'http://amcdn.whatpulse.org/files/whatpulse-mac-2.2.1.dmg',
+    source   => 'http://amcdn.whatpulse.org/files/whatpulse-mac-2.3.dmg',
     provider => pkgdmg
-  }
-
-  file { '/private/var/db/.AccessibilityAPIEnabled':
-    ensure => present,
   }
 }
 
